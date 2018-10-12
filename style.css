@@ -1,0 +1,51 @@
+#one {
+    display: flex; 
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    
+}
+
+#two {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#three {
+    border: solid;
+    border-width: 10px;
+}
+
+#four {
+    border: solid;
+    
+}
+
+#five {
+    border: solid;
+    border-width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#six {
+    display: flex; 
+    flex-direction: flex-start;
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.bigger {
+    font-size: 50px;
+    font-style: bold;
+}
+
+.medium {
+    font-size: 40px;
+}
