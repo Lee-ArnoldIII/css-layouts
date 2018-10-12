@@ -62,6 +62,11 @@ ul {
     list-style: none;
 }
 
+li {
+    margin: 0; 
+    padding: 0;
+}
+
 .bigger {
     font-size: 100px;
     font-style: bold;
@@ -69,4 +74,14 @@ ul {
 
 .medium {
     font-size: 40px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#items {
+    display: flex;
+    
 }
