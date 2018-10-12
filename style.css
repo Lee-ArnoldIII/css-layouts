@@ -1,40 +1,57 @@
+#shell {
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+}
 #one {
     display: flex; 
     border: solid;
-    border-width: 10px;
-    border-radius: 5px;
+    border-width: 7px;
     
 }
 
 #two {
+    height: 400px;
     display: flex;
     flex-direction: row;
-
+    border: solid;
+    border-width: 5px;
 }
 
 #three {
+    width: 25%;
     border: solid;
-    border-width: 10px;
+    border-width: 2px;
+    flex-grow: 25%;
+    border-top-width: 0;
+    border-bottom-width: 0;
 }
 
 #four {
     border: solid;
-    
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    flex-grow: 50%;
 }
 
 #five {
+    width: 25%;
     border: solid;
-    border-width: 10px;
+    border-width: 2px;
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 25%;
+    border-top-width: 0;
+    border-bottom-width: 0;
 }
 
 #six {
     display: flex; 
     flex-direction: flex-start;
     border: solid;
-    border-width: 10px;
-    border-radius: 5px;
+    border-width: 7px;
 }
 
 ul {
