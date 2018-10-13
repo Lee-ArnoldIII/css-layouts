@@ -15,7 +15,6 @@
 }
 
 #two {
-    background: ;
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -24,7 +23,7 @@
 }
 
 #three {
-    width: 25%;
+    flex: 1;
     background: rgb(191, 132, 193);
     border: solid;
     border-width: 2px;
@@ -35,21 +34,21 @@
 
 #four {
     background: rgb(253, 191, 193);
-    width: 75%;
+    flex: 3;
     border: solid;
     border-left-width: 10px;
     border-right-width: 10px;
     border-top-width: 0;
     border-bottom-width: 0;
-    flex-grow: 50%;
+
 }
 
 #five {
-    width: 25%;
+    flex: 1;
      background: rgb(191, 132, 193);
     border: solid;
     border-width: 2px;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     align-content: flex-start;
     border-top-width: 0;
@@ -111,3 +110,12 @@ li {
 .bigenough {
     font-size: 35px;
 }
+
+@media screen  and (max-width: 800px) {
+    #five {
+        display: none;
+    }
+
+}
+
+
